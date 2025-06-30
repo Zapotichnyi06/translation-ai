@@ -1,7 +1,8 @@
 import React from 'react';
+import { TranslatorApp } from "@/src/main";
 
 const Home = () => {
-    return <div />;
+    return <TranslatorApp />;
 };
 
 export default Home;
