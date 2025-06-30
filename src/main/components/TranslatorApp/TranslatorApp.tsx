@@ -90,7 +90,7 @@ export const TranslatorApp: FC = memo(() => {
                                         type="source"
                                         text={sourceText}
                                         setText={setSourceText}
-                                        lang={sourceLang === "auto" ? detectedLang : sourceLang}
+                                        lang={sourceLang}
                                         isSourceArea={true}
                                         detectedLang={detectedLang}
                                         getLanguageName={getLanguageName}

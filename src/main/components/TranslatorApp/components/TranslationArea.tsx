@@ -57,7 +57,7 @@ export const TranslationArea: FC<TranslationAreaProps> = memo(({type,
             <div className="flex items-center justify-between">
                 <label className="text-sm font-medium">
                     {isSourceArea && type === "source" && lang === "auto"
-                        ? "Исходный текст"
+                        ? "Original text"
                         : getLanguageName(lang)}
                 </label>
                 {detectedLang && isSourceArea && type === "source" && lang === "auto" && (
