@@ -50,7 +50,7 @@ export const TranslatorApp: FC = memo(() => {
         const savedTheme = localStorage.getItem("theme") as "light" | "dark" || "light";
         dispatch(setTheme(savedTheme));
         document.documentElement.classList.toggle("dark", savedTheme === "dark");
-    }, []);
+    }, [dispatch]);
 
     const toggleDarkMode = useCallback(() => {
         const newTheme = theme === "light" ? "dark" : "light";
