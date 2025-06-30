@@ -68,7 +68,7 @@ export const TranslationArea: FC<TranslationAreaProps> = memo(({type,
             </div>
             <div className="relative">
                 <Textarea
-                    placeholder={isSourceArea ? "Введите текст для перевода..." : "Перевод появится здесь..."}
+                    placeholder={isSourceArea ? "Enter the text to translate.." : "The translation will appear here..."}
                     value={text}
                     onChange={setText ? (e) => setText(e.target.value) : undefined}
                     className={`min-h-[200px] resize-none ${!isSourceArea ? "bg-gray-50 dark:bg-gray-700" : ""}`}
