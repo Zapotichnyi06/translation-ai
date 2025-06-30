@@ -38,8 +38,8 @@ export const TranscriptionArea: FC<TranscriptionAreaProps> = memo(({
     return (
         <div className="space-y-2">
             <label className="text-sm font-medium">
-                Транскрипция перевода ({getLanguageName(targetLang)} →{" "}
-                {sourceLang === "auto" ? getLanguageName(detectedLang) : getLanguageName(sourceLang)} буквами)
+                Transcription of translation ({getLanguageName(targetLang)} →{" "}
+                {sourceLang === "auto" ? getLanguageName(detectedLang) : getLanguageName(sourceLang)} by letters)
             </label>
             <div className="relative">
                 <div className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-md border border-blue-200 dark:border-blue-800">
