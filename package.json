@@ -24,6 +24,7 @@
     "@radix-ui/react-toast": "^1.2.14",
     "@reduxjs/toolkit": "^2.2.7",
     "@tailwindcss/line-clamp": "^0.4.4",
+    "@vercel/analytics": "^1.5.0",
     "ai": "^4.3.16",
     "autoprefixer": "^10.4.19",
     "axios": "^1.7.2",
