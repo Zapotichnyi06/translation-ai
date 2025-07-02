@@ -1,7 +1,7 @@
 import {Language} from "@/types";
 
 export const languages: Language[] = [
-    { code: "auto", name: "Auto Detect", nativeName: "Автоопределение" },
+    { code: "auto", name: "Auto Detect", nativeName: "Self-definition" },
     { code: "en", name: "English", nativeName: "English" },
     { code: "ru", name: "Russian", nativeName: "Русский" },
     { code: "es", name: "Spanish", nativeName: "Español" },
